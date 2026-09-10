@@ -173,11 +173,14 @@ ion-content {
 
 // Barra de busca customizada
 ion-searchbar {
+  display: block;
+  width: calc(100% - 32px);
+  max-width: 800px;
   padding: 16px;
   --background: rgba(255, 255, 255, 0.9);
   --border-radius: 16px;
   --box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-  margin: 0 16px 16px 16px;
+  margin: 0 auto 16px;
 }
 
 // Títulos das seções
