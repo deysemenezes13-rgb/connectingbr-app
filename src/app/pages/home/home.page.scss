@@ -171,16 +171,21 @@ ion-content {
   --background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
 }
 
+.home-layout {
+  width: min(1100px, calc(100% - 32px));
+  margin: 0 auto;
+}
+
 // Barra de busca customizada
 ion-searchbar {
   display: block;
-  width: calc(100% - 32px);
-  max-width: 800px;
+  width: 100%;
+  max-width: none;
   padding: 16px;
   --background: rgba(255, 255, 255, 0.9);
   --border-radius: 16px;
   --box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-  margin: 0 auto 16px;
+  margin: 0 0 24px;
 }
 
 // Títulos das seções
@@ -189,7 +194,7 @@ ion-searchbar {
   font-weight: 600;
   color: #2C3E50;
   margin: 0 0 16px 0;
-  padding: 0 20px;
+  padding: 0;
 }
 
 // Seção de categorias
@@ -200,7 +205,7 @@ ion-searchbar {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 16px;
-    padding: 0 20px;
+    padding: 0;
     
     @media (min-width: 768px) {
       grid-template-columns: repeat(4, 1fr);
@@ -261,7 +266,7 @@ ion-searchbar {
 // Seção de serviços recentes
 .recent-services {
   .services-list {
-    padding: 0 16px;
+    padding: 0;
     
     .service-card {
       margin-bottom: 16px;
@@ -387,13 +392,15 @@ ion-searchbar {
 
 // Responsividade avançada
 @media (max-width: 480px) {
+  .home-layout {
+    width: calc(100% - 24px);
+  }
+
   .section-title {
     font-size: 18px;
-    padding: 0 16px;
   }
   
   .categories-section .category-grid {
-    padding: 0 16px;
     gap: 12px;
   }
   
@@ -492,16 +499,6 @@ ion-searchbar {
 }
 
 @media (min-width: 1024px) {
-  .categories-section .category-grid {
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  
-  .recent-services .services-list {
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  
   .main-header .header-toolbar {
     padding: 8px 24px;
     --min-height: 72px;
