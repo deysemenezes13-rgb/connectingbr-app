@@ -1,5 +1,5 @@
 .register-container {
-  max-width: 600px;
+  max-width: 680px;
   margin: 0 auto;
   padding: 20px 0;
 }
@@ -16,7 +16,7 @@ ion-card-header {
 }
 
 ion-card-title {
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 600;
   color: var(--ion-color-primary);
   display: flex;
@@ -33,7 +33,7 @@ ion-card-content {
   margin-bottom: 24px;
   
   h3 {
-    font-size: 18px;
+    font-size: 21px;
     font-weight: 600;
     color: var(--ion-color-dark);
     margin: 0 0 16px 0;
@@ -61,7 +61,7 @@ ion-item {
   ion-input {
     --padding-start: 0;
     --padding-end: 0;
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 
@@ -79,7 +79,7 @@ ion-item {
     
     ion-label {
       font-weight: 600;
-      font-size: 16px;
+      font-size: 18px;
     }
   }
   
@@ -92,7 +92,7 @@ ion-item {
 ion-text[color="danger"] {
   margin: 8px 0;
   display: block;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .submit-section {
@@ -103,7 +103,7 @@ ion-text[color="danger"] {
     --padding-top: 16px;
     --padding-bottom: 16px;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 18px;
     text-transform: none;
   }
 }

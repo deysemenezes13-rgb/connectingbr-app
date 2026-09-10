@@ -182,7 +182,7 @@ ion-searchbar {
 
 // Títulos das seções
 .section-title {
-  font-size: 20px;
+  font-size: 23px;
   font-weight: 600;
   color: #2C3E50;
   margin: 0 0 16px 0;
@@ -208,7 +208,7 @@ ion-searchbar {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 16px;
+    padding: 20px;
     background: rgba(255, 255, 255, 0.9);
     border-radius: 20px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
@@ -225,8 +225,8 @@ ion-searchbar {
     }
     
     .category-icon {
-      width: 80px;
-      height: 80px;
+      width: 96px;
+      height: 96px;
       border-radius: 50%;
       overflow: hidden;
       margin-bottom: 12px;
@@ -247,7 +247,7 @@ ion-searchbar {
     }
     
     .category-label {
-      font-size: 14px;
+      font-size: 16px;
       font-weight: 600;
       color: #2C3E50;
       text-align: center;
@@ -278,13 +278,13 @@ ion-searchbar {
         
         ion-card-title {
           color: #2C3E50;
-          font-size: 18px;
+          font-size: 21px;
           font-weight: 600;
         }
         
         ion-card-subtitle {
           color: #4A90E2;
-          font-size: 14px;
+          font-size: 16px;
           font-weight: 500;
         }
       }
@@ -294,7 +294,7 @@ ion-searchbar {
         
         p {
           color: #6C757D;
-          font-size: 14px;
+          font-size: 16px;
           margin-bottom: 12px;
         }
         
@@ -304,13 +304,13 @@ ion-searchbar {
           align-items: center;
           
           .price {
-            font-size: 16px;
+            font-size: 18px;
             font-weight: 600;
             color: #28CA42;
           }
           
           .rating {
-            font-size: 14px;
+            font-size: 16px;
             color: #FFB347;
             font-weight: 500;
             cursor: pointer;

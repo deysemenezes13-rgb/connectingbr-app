@@ -58,3 +58,37 @@
 .leaflet-popup-tip {
   z-index: 3 !important;
 }
+
+body {
+  font-size: 17px;
+}
+
+ion-icon:not(.brand-icon) {
+  font-size: 1.2em;
+}
+
+ion-button {
+  font-size: 1.05rem;
+}
+
+ion-item {
+  --min-height: 64px;
+}
+
+ion-input,
+ion-textarea,
+ion-select {
+  font-size: 1.08rem;
+}
+
+ion-label {
+  font-size: 1.05rem;
+}
+
+ion-card-title {
+  font-size: 1.15rem;
+}
+
+ion-card-subtitle {
+  font-size: 1rem;
+}
