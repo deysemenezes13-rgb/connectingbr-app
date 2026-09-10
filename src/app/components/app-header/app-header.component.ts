@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
-import { IonHeader, IonToolbar, IonTitle, IonIcon } from '@ionic/angular/standalone';
+import { IonHeader, IonToolbar, IonTitle } from '@ionic/angular/standalone';
 import { addIcons } from 'ionicons';
 import { business } from 'ionicons/icons';
 
@@ -9,7 +9,7 @@ import { business } from 'ionicons/icons';
   templateUrl: './app-header.component.html',
   styleUrls: ['./app-header.component.scss'],
   standalone: true,
-  imports: [IonHeader, IonToolbar, IonTitle, IonIcon]
+  imports: [IonHeader, IonToolbar, IonTitle]
 })
 export class AppHeaderComponent {
   constructor(private router: Router) {

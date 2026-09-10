@@ -41,8 +41,9 @@
       gap: 12px;
       
       .brand-icon {
-        font-size: 28px;
-        color: #4A90E2;
+        width: 40px;
+        height: 40px;
+        object-fit: contain;
       }
       
       .brand-title {
