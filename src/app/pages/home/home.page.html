@@ -22,15 +22,15 @@
         </ion-button>
       } @else {
         <!-- Usuário não logado -->
-        <ion-button fill="outline" class="register-button feedback" (click)="onFeedback()">
+        <ion-button fill="outline" class="register-button feedback" (click)="onFeedback()" aria-label="Feedback" title="Feedback">
           <ion-icon name="person-add" slot="start"></ion-icon>
           Feedback
         </ion-button>
-        <ion-button fill="outline" class="register-button" (click)="onRegister()">
+        <ion-button fill="outline" class="register-button" (click)="onRegister()" aria-label="Register" title="Register">
           <ion-icon name="person-add" slot="start"></ion-icon>
           Register
         </ion-button>
-        <ion-button fill="outline" class="login-button" (click)="onLogin()">
+        <ion-button fill="outline" class="login-button" (click)="onLogin()" aria-label="Login" title="Login">
           <ion-icon name="person" slot="start"></ion-icon>
           Login
         </ion-button>

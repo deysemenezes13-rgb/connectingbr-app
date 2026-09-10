@@ -442,20 +442,47 @@ ion-searchbar {
 @media (max-width: 480px) {
   .main-header .header-toolbar {
     padding: 4px 8px;
-    
+
     .brand-section {
-      .brand-title {
-        font-size: 18px;
+      gap: 4px;
+      min-width: 0;
+
+      .brand-icon {
+        width: 40px;
+        height: 40px;
+        flex: 0 0 40px;
       }
     }
     
-    .user-section .login-button {
-      --padding-start: 12px;
-      --padding-end: 12px;
+    .brand-title {
+      font-size: 16px;
+      white-space: nowrap;
+    }
+
+    .user-section {
+      gap: 3px;
+      flex-shrink: 0;
+
+      .register-button,
+      .login-button {
+        --padding-start: 5px;
+        --padding-end: 5px;
+        --border-radius: 7px;
+        width: 36px;
+        min-width: 36px;
       height: 36px;
-      
+
+        font-size: 0;
+
+        ion-icon {
+          display: block;
+          font-size: 20px;
+          margin: 0;
+        }
+      }
+
       ion-icon {
-        display: none; // Hide icon on very small screens
+        margin: 0;
       }
     }
   }
